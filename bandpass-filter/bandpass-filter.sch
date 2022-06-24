@@ -30,7 +30,7 @@ U 1 1 627D9D5F
 P 9035 3850
 F 0 "J3" H 9135 3825 50  0000 L CNN
 F 1 "Conn_Coaxial" H 9135 3734 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 9035 3850 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-2120_EdgeMount_Horizontal" H 9035 3850 50  0001 C CNN
 F 3 " ~" H 9035 3850 50  0001 C CNN
 	1    9035 3850
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 627E56C1
 P 3550 3840
 F 0 "J1" H 3607 4307 50  0000 C CNN
 F 1 "Amphenol 10118194-0001LF" H 3607 4216 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 3700 3790 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" H 3700 3790 50  0001 C CNN
 F 3 "~" H 3700 3790 50  0001 C CNN
 	1    3550 3840
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 627D8C7C
 P 5260 3850
 F 0 "J2" H 5188 4088 50  0000 C CNN
 F 1 "Conn_Coaxial" H 5188 3997 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 5260 3850 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-2120_EdgeMount_Horizontal" H 5260 3850 50  0001 C CNN
 F 3 " ~" H 5260 3850 50  0001 C CNN
 	1    5260 3850
 	-1   0    0    -1  
@@ -416,5 +416,49 @@ F 2 "" H 2575 3955 50  0001 C CNN
 F 3 "" H 2575 3955 50  0001 C CNN
 	1    2575 3955
 	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 62AB2C4B
+P 5195 5480
+F 0 "H2" H 5295 5526 50  0000 L CNN
+F 1 "MountingHole" H 5295 5435 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5195 5480 50  0001 C CNN
+F 3 "~" H 5195 5480 50  0001 C CNN
+	1    5195 5480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 62AB4A27
+P 6045 5480
+F 0 "H3" H 6145 5526 50  0000 L CNN
+F 1 "MountingHole" H 6145 5435 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 6045 5480 50  0001 C CNN
+F 3 "~" H 6045 5480 50  0001 C CNN
+	1    6045 5480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 62AB5A92
+P 6045 5830
+F 0 "H4" H 6145 5876 50  0000 L CNN
+F 1 "MountingHole" H 6145 5785 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 6045 5830 50  0001 C CNN
+F 3 "~" H 6045 5830 50  0001 C CNN
+	1    6045 5830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 62AB690A
+P 5190 5830
+F 0 "H1" H 5290 5876 50  0000 L CNN
+F 1 "MountingHole" H 5290 5785 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5190 5830 50  0001 C CNN
+F 3 "~" H 5190 5830 50  0001 C CNN
+	1    5190 5830
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
