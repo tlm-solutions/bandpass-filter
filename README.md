@@ -1,5 +1,8 @@
 # Bandpass filter for the SDR
 
+![Bandpass filter](./bandpass-filter/bandpass-filter.png)
+
+
 ## Measurements of the first prototype
 
 | Gain   | Frequency |
