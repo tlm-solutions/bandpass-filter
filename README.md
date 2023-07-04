@@ -1,7 +1,8 @@
 # Bandpass filter for the SDR
 
-![Bandpass filter](./bandpass-filter/bandpass-filter.png)
+PCB is designed for JLCPCB 4 layer impedance controlled JLC04161H-7628 1.6mm thickness 1oz outer copper 0.5oz inner copper
 
+![Bandpass filter](./bandpass-filter/bandpass-filter.png)
 
 ## Measurements of the first prototype
 
